@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>for my beloved</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" type="text/css" 
+       href="//fonts.googleapis.com/css?family=Niconne" />
+       <link rel="stylesheet" type="text/css" 
+       href="//fonts.googleapis.com/css?family=Delius" />
+      <style>
+         body {
+            background-image: url(images/background.jpg);
+
+         }
+         h1 {
+            font-family: Papyrus;
+         }
+      </style>
+      </head>
+   
+   <body>
+      <div class = "main-div">
+         <div id = "inmain-div1">
+               <div class="fadein-txt">
+                  <p id="txt-happy">happy</p>
+                  <p id="txt-birthday">birthday</p>
+                  <p id="txt-mybeloved">my beloved</p>
+                  <div id="scroll-container">
+                     <div id="scroll-text">
+                        <!-- manual multiplication ig -->
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you 
+                        i love you
+                     </div>
+                   </div>
+               </div>
+         </div>
+
+         <div id = "inmain-div2">
+            <div class="fadein-txt">
+               <p>but wait!</p>
+               <p id="txt-makesure">just to make sure...</p>
+               <p id="txt-name">what's your name?</p>
+                  <div class = "txtbox">
+                     <form id="txtboxName" name ="txtboxName" onsubmit="return validateName()">
+                        <input type="text" name="name" required>
+                      </form>
+                  </div>
+            </div>
+         </div>
+         
+         <div id = "inmain-div3">
+            <div class="fadein-txt">
+               <p>that's my favourite name :3</p>
+               <p>and how old are you?</p>
+               <div class = "txtbox">
+                  <form id="txtboxAge" name ="txtboxAge" onsubmit="return validateAge()">
+                     <input type="text" name="age" required>
+                   </form>
+               </div>
+            </div>
+         </div>
+         <div id="letter-div">
+            <button id="envelopeBtn"></button>
+            <div id="popup-container"></div>
+         </div>
+      </div>
+      
+     
+
+       <script src = "index.js" charset="utf-8"></script>
+   </body>
+
+   </html>
